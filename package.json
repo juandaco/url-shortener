@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice API Project for FreeCodeCamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandaco/url-shortener.git"
+  },
+  "author": "Juan D Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juandaco/url-shortener/issues"
+  },
+  "homepage": "https://github.com/juandaco/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
