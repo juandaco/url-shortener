@@ -5,10 +5,11 @@ const express = require('express'),
 
 const app = express();
 const port = process.env.PORT || 8080;
-const appURL = 'https://little-url.herokuapp.com/';
+const appURL = 'https://damp-fjord-84537.herokuapp.com/';
+const dbURL = process.env.MONGOLAB_URI;
 
 
-MongoClient.connect('mongodb://localhost:27017/urls', (err, db) => {
+MongoClient.connect(dbURL, (err, db) => {
 
   assert.equal(null, err);
   console.log("Connected successfully to server");
